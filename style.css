@@ -1,0 +1,48 @@
+body{
+  margin:1px 1px 1px 2px ;
+  text-align: center;
+}
+#gameContainer{
+  text-align: center;
+  margin : 0 0 0 0;
+}
+#gameInformation{
+  margin-bottom: 0 
+}
+#pauseBtn{
+  height : 30;
+  width: 100;
+  margin-left: 10
+}
+#gameBoard{
+  margin-top: 0; 
+  border: 3px solid;
+}
+#dpad {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.dpad-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: #ccc;
+  margin: 5px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+#dpad-left, #dpad-right {
+  width: 30px;
+  height: 25px;
+}
+#dpad-up, #dpad-down {
+  width: 25px;
+  height: 30px;
+}
