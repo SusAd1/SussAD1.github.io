@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="gameContainer">
+    
+    <canvas id="gameBoard" height="480" width="360"></canvas><br>
+    <canvas id="information" height="30" width="333"></canvas>
+    <button id="pauseBtn"></button>
+    <button id="resetBtn">Reset</button>
+    <div id="dpad">
+      <div id="dpad-up" class="dpad-btn">↑</div>
+      <div style="display: flex;">
+      <div id="dpad-left" class="dpad-btn">←</div>
+      <div id="dpad-right" class="dpad-btn">→</div>
+      </div>
+      <div id="dpad-down" class="dpad-btn">↓</div>
+    </div>
+  </div>
+</body>
+  <script src="rules.js"></script>
+</html>
